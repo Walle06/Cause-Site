@@ -1,0 +1,108 @@
+body{
+   background-image: url(../images/virtualglobe.png);
+}
+#whyImage1{
+	margin: 10px;
+	
+	width: 300px;
+	height: 200px;
+	text-align: center;
+	color: white;
+	float: left;
+	position: absolute;
+	top: 50px;
+	left: 150px;
+}
+#text1{
+	margin: 10px;
+	background: rgba(0,255,100,.5);
+	border: solid 1px white;
+	width: 400px;
+	height: 200px;
+	text-align: center;
+	color: white;
+	float: right;
+	position: absolute;
+	top: 50px;
+	right: 200px;
+}
+#whyImage2{
+	margin:10px;
+	
+	width: 300px;
+	height: 200px;
+	text-align: center;
+	color: white;
+	float: left;
+	position: absolute;
+	left: 150px;
+	top: 300px;
+}
+#text2{
+	margin:10px;
+	background: rgba(0,255,100,.5);
+	border: solid 1px white;
+	width: 400px;
+	height: 200px;
+	text-align: center;
+	color: white;
+	float: right;
+	position: absolute;
+	top: 300px;
+	right: 200px;
+}
+#fadePic{
+	width: 960px;
+	height: 500px;
+	text-align: center;
+	color: white;
+	border: solid 1px white;
+	float: left;
+	position: absolute;
+	top: 600px;
+	left: 130px;
+	background: rgba(0,0,0,1);
+}
+#revealDiv{
+	border: solid 1px white;
+	background-image: url(../images/worstcase.png);
+	width: 960px;
+	height: 500px;
+	text-align: center;
+	color: white;
+	position: absolute;
+	top: 600px;
+	left: 130px;
+	z-index: -1;
+}
+nav{
+	position: absolute;
+	top: 15px;
+	left: 0px;
+
+}
+nav ul{
+	list-style: none;
+	padding-left: 0px;
+	border: solid 1px white;
+	width:150px;
+	background: rgba(0,255,100,.5);
+
+}
+nav ul li{
+	border: solid 1px white;
+	color: white;
+	width: 150px;
+	height: 25px;
+	font-size: 10pt;
+}
+nav ul li:hover{
+	background: white;
+	color: black;
+	cursor: pointer;
+	}
+
+
+
+
+
