@@ -20,13 +20,16 @@ nav{
 nav ul{
 	list-style: none;
 	padding-left: 0px;
-	border: solid 1px white;
+	
 	width:150px;
-	background: rgba(0,150,255,.7);
+	
 
 }
 nav ul li{
+	background: rgba(0,150,255,.7);
+	padding-top: 10px;
 	border: solid 1px white;
+	text-align: center;
 	color: white;
 	width: 150px;
 	height: 25px;
@@ -37,3 +40,15 @@ nav ul li:hover{
 	color: black;
 	cursor: pointer;
 	}
+nav ul a{
+	text-decoration: none;
+
+}
+.topLi{
+	border-top-left-radius: 75px;
+	border-top-right-radius: 75px;
+}
+.bottomLi{
+    border-bottom-right-radius: 75px;
+    border-bottom-left-radius: 75px;
+}

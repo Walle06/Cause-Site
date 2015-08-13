@@ -7,10 +7,13 @@ $(document).ready(function(){
 		$("#fadePic").fadeOut(3000);
 	});	
 
-		/*$("#mainBody").ready(function(){
-		 $("#mainBody").fadeIn(5000);
+		$( "#mainBody" ).click(function() {
+        $( "#mainBody" ).slideDown( "slow" ) 
+    
+         
+         });
 
-		});*/
+		
 		
 	
 

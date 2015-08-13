@@ -33,13 +33,16 @@ nav{
 nav ul{
 	list-style: none;
 	padding-left: 0px;
-	border: solid 1px white;
+	
 	width:150px;
-	background: rgba(0,255,100,.5);
+	
 
 }
 nav ul li{
+	background: rgba(0,255,100,.5);
+	padding-top: 10px;
 	border: solid 1px white;
+	text-align: center;
 	color: white;
 	width: 150px;
 	height: 25px;
@@ -50,6 +53,19 @@ nav ul li:hover{
 	color: black;
 	cursor: pointer;
 	}
+nav ul a{
+	text-decoration: none;
+	
+}
+.topLi{
+	border-top-left-radius: 75px;
+	border-top-right-radius: 75px;
+}
+.bottomLi{
+    border-bottom-right-radius: 75px;
+    border-bottom-left-radius: 75px;
+}
+
 #Banner{
 	background: rgba(0,0,0,.8);
 	width: 100%;
@@ -75,3 +91,4 @@ nav ul li:hover{
 	top: 200px;
 	left: 300px;
 }
+
