@@ -1,0 +1,144 @@
+body{
+	background-image: url(../images/worstcase.png);
+	
+}
+@font-face {
+    font-family: hungerGames;
+    src: url(../fonts/HungerGames.ttf);
+}
+
+#Banner{
+	
+	width: 100%;
+	height: 55px;
+	color: rgba(0,0,200,.8);
+	text-align: center;
+	font-size: 50pt;
+	font-family: hungerGames;
+	letter-spacing: 15px;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+}	
+
+#mainDiv{
+	background: rgba(0,0,200,.8);
+	color: white;
+	padding-left: 5px;
+	width: 350px;
+	height: 600px;
+	margin:0 auto;
+	margin-top: 100px;
+
+}
+nav{
+    position: absolute;
+	top: 15px;
+	left: 0px;
+
+}
+nav ul{
+	list-style: none;
+	padding-left: 0px;
+	
+	width:150px;
+	
+
+}
+nav ul li{
+	background: rgba(0,150,255,.7);
+	padding-top: 10px;
+	border: solid 1px white;
+	text-align: center;
+	color: white;
+	width: 150px;
+	height: 25px;
+	font-size: 10pt;
+}
+nav ul li:hover{
+	background: white;
+	color: black;
+	cursor: pointer;
+	}
+nav ul a{
+	text-decoration: none;
+
+}
+.topLi{
+	border-top-left-radius: 75px;
+	border-top-right-radius: 75px;
+}
+.bottomLi{
+    border-bottom-right-radius: 75px;
+    border-bottom-left-radius: 75px;
+}
+#hurrDiv{
+	background-image: url(../images/hurricane.jpg);
+	background-size: 600px;
+	background-position: center;
+	border-radius: 300px;
+	width:600px;
+	height: 300px;
+	position: absolute;
+	top: 150px;
+	left: 160px;
+	
+}
+#weatherText{
+	background: rgba(0,150,255,.7);
+	width: 200px;
+	height: 1000px;
+	padding-left: 5px;
+	color: white;
+	text-align: left;
+	position: absolute;
+	top: 150px;
+	right: 200px;
+	display: none;
+}
+#erodeDiv{
+	background-image: url(../images/erosion.jpg);
+	background-size: 600px;
+	background-position: center;
+	border-radius: 300px;
+	width: 600px;
+	height: 300px;
+	position: absolute;
+	top: 500px;
+	left: 160px;
+}
+#andrewDiv{
+	background-image: url(../images/hurrandrew.jpg);
+	background-size: 600px;
+	background-position: center;
+	border-radius: 300px;
+	width: 600px;
+	height: 300px;
+	position: absolute;
+	top: 850px;
+	left: 160px;
+}
+#cityDiv{
+	width: 350px;
+	height: 350px;
+	position: absolute;
+	top: 300px;
+	left: 10px;
+}
+#globeChart{
+	width: 350px;
+	height: 350px;
+	position: absolute;
+	top: 300px;
+	right: 10px;
+}
+#seaChart{
+	width: 800px;
+	height: 550px;
+	position: absolute;
+	top: 720px;
+	left: 200px;
+}
+
+
+

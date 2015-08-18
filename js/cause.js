@@ -1,4 +1,5 @@
 $(document).ready(function(){
+	//alert(":)")
 	$("#slideDiv").animate({
 		right:"-=1300px",
 	}, 6000);
@@ -7,14 +8,18 @@ $(document).ready(function(){
 		$("#fadePic").fadeOut(3000);
 	});	
 
-		$( "#mainBody" ).click(function() {
-        $( "#mainBody" ).slideDown( "slow" ) 
+		$( window ).ready(function() {
+			//alert(":)")
+         	$( "#mainBody" ).slideDown( 3000 ) 
+         	
     
          
-         });
+          });
+		$( window ).ready( function() {
+			$( "#weatherText" ).fadeIn( 5000 )
+		});
 
 		
 		
-	
 
 });
